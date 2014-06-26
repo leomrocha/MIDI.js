@@ -19,10 +19,10 @@ module.exports = function (grunt) {
 				'js/MIDI/Player.js',
 				'js/Window/DOMLoader.XMLHttp.js', // req when using XHR
 				'js/Window/DOMLoader.script.js', // req otherwise
-//				'js/Color/SpaceW3.js', // optional
-//				'js/MusicTheory/Synesthesia.js', // optional
-//				'js/Widgets/Loader.js', // optional
-//				'js/Window/Event.js' // optional
+				'js/Color/SpaceW3.js', // optional
+				'js/MusicTheory/Synesthesia.js', // optional
+				'js/Widgets/Loader.js', // optional
+				'js/Window/Event.js' // optional
 			]
 		},
 		uglify: {
